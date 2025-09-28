@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Port<span>folio</span></div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Sanjal Rai</span></h1>
+                    <p>A passionate web developer creating beautiful and functional websites.</p>
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <div class="social-icons">
+                        <a href="https://github.com/Sanjalrai"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sanjal-rai-77a736293/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/sanjal_rai/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="me.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="me.jpg" alt="About Image">
+                </div>
+                <div class="about-text">
+                    <h3>I'm a professional web developer</h3>
+                    <p>I am a skilled and passionate web developer with expertise in building responsive, user-friendly websites and applications. Proficient in front-end technologies like HTML, CSS, JavaScript, and modern frameworks (React, Vue, or Angular), as well as back-end development using Node.js, PHP, or Python. I prioritize clean code, performance optimization, and seamless user experiences while staying updated with the latest industry trends. With strong problem-solving skills and a collaborative mindset, I deliver efficient, scalable, and visually appealing digital solutions tailored to client needs.</p>                    
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>Node.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>From responsive design and front-end development to robust back-end solutions and full-stack web applications, I provide comprehensive web development services tailored to your unique needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>I offer custom web design services that combine stunning visuals, intuitive UX/UI, and responsive layouts to create engaging, user-friendly websites that reflect your brand.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>I offer comprehensive digital marketing services, including SEO, PPC, social media marketing, and content strategy, to help your brand grow online and reach the right audience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Support</h3>
+                    <p>I provide fast, reliable, and friendly support services to ensure your website, applications, and digital tools run smoothly with minimal downtime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <!-- Portfolio Section -->
+<section id="portfolio">        
+    <div class="container">
+        <h2 class="section-title">My Work</h2>
+        
+        <!-- Slideshow Container -->
+        <div class="slideshow-container">
+            <!-- Slide 1 -->
+            <div class="mySlides fade">
+                <div class="slide-content">
+                    <img src="jobs.jpg" alt="Web Project">
+                    <div class="slide-info">
+                        <h3>Web Project</h3>
+                        <p>Modern responsive website built with HTML, CSS, and JavaScript</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="mySlides fade">
+                <div class="slide-content">
+                    <img src="app project.jpg" alt="App Project">
+                    <div class="slide-info">
+                        <h3>App Project</h3>
+                        <p>Mobile application developed with React Native</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="mySlides fade">
+                <div class="slide-content">
+                    <img src="design project.jpg" alt="Design Project">
+                    <div class="slide-info">
+                        <h3>Design Project</h3>
+                        <p>UI/UX design created with Figma and Adobe XD</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="mySlides fade">
+                <div class="slide-content">
+                    <img src="power bi.jpg" alt="Power BI">
+                    <div class="slide-info">
+                        <h3>Power BI Dashboard</h3>
+                        <p>Interactive data visualization and business intelligence solution</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 5 -->
+            <div class="mySlides fade">
+                <div class="slide-content">
+                    <img src="cisco.jpg" alt="Cisco Packet Tracer">
+                    <div class="slide-info">
+                        <h3>Cisco Network Design</h3>
+                        <p>Network infrastructure simulation using Cisco Packet Tracer</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 6 -->
+            <div class="mySlides fade">
+                <div class="slide-content">
+                    <img src="excel.jpg" alt="Excel Dashboard">
+                    <div class="slide-info">
+                        <h3>Excel Dashboard</h3>
+                        <p>Advanced data analysis and visualization in Excel</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        
+        <!-- Dots/bullets indicators -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about your project</h3>
+                    <p>Feel free to contact me for any questions or opportunities. I'll get back to you as soon as possible.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Sakela marga, Biratnagar, Nepal</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>sanjalrai2734@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+977 9841848577</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Port<span>folio</span></div>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://github.com/Sanjalrai"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sanjal-rai-77a736293/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/sanjal_rai/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="copyright">&copy; 2023 My Portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
